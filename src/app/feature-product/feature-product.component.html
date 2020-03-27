@@ -1,0 +1,19 @@
+<div *ngFor="let product of featureProducts" class="mb-3">
+  <a class="bg-container" href="#">
+    <div id="test" [style.background-image]="'url(../../assets/images/' + product.imageUrl + ')'">
+      <div class="d-flex flex-column align-items-center">
+        <span class="mt-5 text-danger">全新</span>
+        <h1 class="display-4">{{ product.name }}</h1>
+        <h3>{{product.slogan}}</h3>
+        <div class="d-flex">
+          <div class="mr-4">
+            <a href="#">進一步了解 >></a>
+          </div>
+          <div>
+            <a href="#">查看價格 >></a>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </a>
+</div>

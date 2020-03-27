@@ -1,0 +1,24 @@
+$theme-colors: (
+  "dark": rgba(0,0,0, 0.8)
+);
+
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/utilities";
+
+.container {
+  max-width: 1024px;
+}
+nav {
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.nav-item > a {
+  font-weight: 400;
+  padding: 2px;
+  font-size: small;
+}
+

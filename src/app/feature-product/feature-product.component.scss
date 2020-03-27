@@ -1,0 +1,24 @@
+.bg-container {
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  filter: invert(1);
+  mix-blend-mode: difference;
+  font-weight: 600;
+}
+h3 {
+  color: black;
+  filter: invert(1);
+  mix-blend-mode: difference;
+  font-weight: normal;
+}
+#test {
+  //background-image: url("../../assets/images/iPad_pro_2020.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  //background-attachment: fixed;
+  height: 95vh;
+}
